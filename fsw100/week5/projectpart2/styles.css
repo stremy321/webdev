@@ -1,0 +1,25 @@
+.linkone {
+    width: 100%;
+    height: 4px;
+    background: purple;
+}
+.linktwo {
+    width: 100%;
+    height: 4px;
+    background: orange;
+}
+.gridone {
+    width: 100%;
+    height: 4px;
+    background: green;
+}
+.gridtwo{
+    width: 100%;
+    height: 4px;
+    background: red;
+}
+.tables {
+    width: 100%;
+    height: 4px;
+    background:burlywood;
+} 

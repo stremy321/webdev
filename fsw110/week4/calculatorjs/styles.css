@@ -1,0 +1,13 @@
+div, body {
+    padding: 30;
+    background-color:lightcoral;
+} 
+
+.calculator {
+    border-radius: 12px;
+    box-shadow: mintcream;
+    display: grid;
+    text-align: center;
+    background-color: paleturquoise;
+    border: 2px;
+} 

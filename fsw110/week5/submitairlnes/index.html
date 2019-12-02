@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form class="grid" name="passenger">
+        First Name: <input type="text" name="firstName">
+        <ol>
+        Last Name: <input type="text" name="lastName">
+        <ol>
+        Age: <input type="number" name="age">
+        <ol>
+        
+        Gender:
+        <br>
+        Male <input type="radio" name="gender" value="Male">
+        Female <input type="radio" name="gender" value="Female">
+        <br>
+
+        Destination <select name="countries">
+            <option value="France">France</option>
+            <option value="Greece">Greece</option>
+            <option value="Canada">Canada</option>
+        </select>
+
+        <br>
+        Dietary Restrictions(check all that applies to your needs) 
+        <br>
+        Pescatarian: <input type="checkbox" value="Pescatarian" name="restrictions">
+        Plant Based: <input type="checkbox" value="Plant Based" name="restrictions">
+        Vegetartian: <input type="checkbox" value="Vegetartian" name="restrictions">
+        
+        <br>
+        <button>Submit</button>
+    </form>
+    <script src="submit.js"></script>
+</body>
+</html>
