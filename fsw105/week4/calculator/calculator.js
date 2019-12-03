@@ -1,6 +1,6 @@
 const readline = require("readline-sync")
 
-sum(num1, num2){
+sum(num1, num2) {
   return num1 + num2
 }
 var result = sum(50, 5)

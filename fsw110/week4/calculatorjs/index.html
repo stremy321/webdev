@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Calculator</title>
+   
+    <title></title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-        <div class="calculator">
-                <div class="calculator">
-                        <div class="calculatordisplay"></div>
-                  
-                        <div class="calculatorkeys">
-                          <button class="key--operator" data-action="add">+</button>
-                          <button class="key--operator" data-action="subtract">-</button>
-                          <button class="key--operator" data-action="multiply">&times;</button>
-                          <button class="key--operator" data-action="divide">÷</button>
-                          <button>7</button>
-                          <button>8</button>
-                          <button>9</button>
-                          <button>4</button>
-                          <button>5</button>
-                          <button>6</button>
-                          <button>1</button>
-                          <button>2</button>
-                          <button>3</button>
-                          <button>0</button>
-                          <button data-action="decimal">.</button>
-                          <button data-action="clear">AC</button>
-                          <button class="key--equal" data-action="calculate">=</button>
-                        </div>
-                      </div>
-                    </div>
+<body class="calculator">
+    <div>
+        <form name="add" class="addition">
+           ADD First number: <input id="box" type="text" name="addnum1">
+           <br> 
+           ADD Second number: <input id="box" type="text" name="addnum2">
+            <br>
+            Result : <input id="box" type="text" name="answer">
+            <br>
+            <input id="calculate" type="button" value="Calculate" onClick="addValues()">
+        </form>
+    </div>
+    <div>  
+        <form name="sub" class="subtract">
+            Sub First number: <input id="box" type="text" name="subnum1">
+            <br>
+           Sub Second number: <input id="box" type="text" name="subnum2">
+            <br>
+            Result : <input id="box" type="text" name="answer">
+            <br>
+            <input id="calculate" type="button" value="Calculate" onClick="subValues()">
+        </form>
+    </div>
+    <div>   
+        <form name="divide" class="divide">
+            First number: <input id="box" type="text" name="dividenum1">
+            <br>
+            Second number: <input id="box" type="text" name="dividenum2">
+            <br>
+            Result : <input id="box" type="text" name="answer">
+            <br>
+            <input id="calculate" type="button" value="Calculate" onClick="divideValues()">
+        </form>
+    </div>
+    
+    
+    <script src="calculator.js"></script>
 </body>
-
-   
 </html>
