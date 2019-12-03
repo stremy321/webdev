@@ -1,39 +1,71 @@
-if(5 > 3) {
-    console.log("FIVE IS GREATER THAN THREE" )
+if (5 > 3){
+    console.log("is greater than")
+}
+
+let cat = 3
+
+if (cat === 3){
+    console.log("is the length")
+} 
+
+if ('cat' === 'dog'){
+    console.log("the same")
+} else {console.log("not the same")}
+
+var person = {
+  name: "Bobby",
+  age: 12
+}
+
+if (person.age >= 18){
+  console.log("Allowed in")
 } else {
-    console.log("TRUE")
+  console.log("not Allowed in")
 }
-if(cat === dog){
-    console.log("CAT IS EQUAL TO DOG")
+var firstChar = person.charAt(0)
+if (firstChar = "B"){
+  console.log("Allowed in")
+}
+
+if (person.age >= 18 && (person.name = "B")){
+  console.log("They are allowed in")
 } else {
-    console.log("not the same")
+  console.log("They are not allowed in")
 }
 
-
-if(age<18){
-    console.log("AGE IS LESS THAN 18")
+if (1 ==="1"){
+    console.log("strict")
 } else {
-    console.log("YOU ARE NOT ALLOWED")
+    console.log("abstract")
 }
-if(age>18) {
-    console.log("AGE GREATER THAN 18")
+
+if (1 <= 2 && 2 > 4){
+    console.log("yes")
 } else {
-    console.log("WELCOME IN")
+  console.log("No")
 }
 
-if(age>18 && (personname = "B")) {
-   console.log("WELCOME IN") 
-}else {
-   console.log("YOU ARE NOT ALLOWED") 
-}
+var stringValue = "dog"
+var booleanValue = "true"
 
+console.log(stringValue, typeof (booleanValue) )
 
-if(1===2 && 2===4 ){
-    console.log('yes')
+if (typeof booleanValue === "boolean"){
+  console.log("Is a boolean")
 } else {
-    console.log("no")
+  console.log("Is not a boolean")
 }
 
+let s = 13
+let t = 15
+let z = 20
 
+if (s > 12){
+  console.log("it is greater")
+}
 
-
+if ((s + t * z) > 20 - 2 * 6){
+  console.log("The Letter's Win")
+} else {
+  console.log("The Number's Win")
+}
