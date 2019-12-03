@@ -1,29 +1,31 @@
 const readline = require("readline-sync")
 
-sum(num1, num2) {
-  return num1 + num2
+function addValues(addnum1, addnum2){
+  var addnum1, addnum2, res;
+  addnum1=Number(document.add.addnum1.value);
+  addnum2=Number(document.add.addnum2.value);
+  res=addnum1+addnum2;
+  document.add.answer.value=res;
 }
-var result = sum(50, 5)
-console.log(result)
 
-function multiply(num1, num2){
-  return num1 * num2
+function subValues(subnum1, num2){
+  var subnum1, subnum2, res;
+  subnum1=Number(document.sub.subnum1.value);
+  subnum2=Number(document.sub.subnum2.value);
+  res=subnum1-subnum2;
+  
+  document.sub.answer.value=res;
 }
-var result = multiply(5, 5)
-console.log(result)
 
-function subtract(num1, num2){
-  return num1 - num2
-}
-var result = subtract(35, 15)
-console.log(result)
+function divideValues(dividenum1, dividenum2){
+  var dividenum1, dividenum2, res;
+  dividenum1=Number(document.divide.dividenum1.value);
+  dividenum2=Number(document.divide.dividenum2.value);
+  res=dividenum1/dividenum2;
+  document.divide.answer.value=res;
 
-function divide(num1, num2){
-  return num1 / num2
-}
-var result = divide(40, 15)
-console.log(result)
+
 
 var  num= Number(readlineSync.question('What is the first number to be added? '));
 var  num= Number(readlineSync.question('What is the second number to add to the first? '));
-
+}
