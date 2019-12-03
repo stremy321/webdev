@@ -7,14 +7,14 @@ var twochance = 'two'
 var threechance = 'three'
 
 getKey = () => {
-    number = Math.floor((Math.random() * 10))
-    if( number <= 2 ){
+    number = Math.floor((Math.random() * 15))
+    if( number <=  1){
         return true
     } else {
         return false
     }
 }    
-//console.log(getKey())
+console.log(getKey())
 const escapeRoom = (one, two, three) => {
     if(firstLine == 'one'){
         return "You have died!"
