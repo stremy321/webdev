@@ -1,37 +1,32 @@
 const readline = require("readline-sync");
 const name = readline.question("What is your name? ");
 
-var welcome = question("Try to escape, you have three chances to get out. Good luck")
-var onechance = 'one'
-var twochance = 'two'
-var threechance = 'three'
+var welcome = question("Try to escape, have fun and dont die")
+var firstchance = 'first chance'
+var secondchance = 'second chance'
+var thirdchance = 'third chance'
 
-getKey = () => {
-    number = Math.floor((Math.random() * 15))
-    if( number <=  1){
-        return true
-    } else {
-        return false
-    }
-}    
-console.log(getKey())
-const escapeRoom = (one, two, three) => {
-    if(firstLine == 'one'){
-        return "You have died!"
-    } else if(firstLine == 'two'){
-        if(getKey() == true){
-            return "You have found the key!"
-        } else if(getKey() == false){
-            return "You couldn't find the key!"
+
+    
+    
+console.log(Key())
+const escapeRoom = (firstchance, secondchance, thirdchance) => {
+    if(firstLine == 'firstchance'){
+        return "You still looking for the key!"
+    } else if(firstLine == 'second chance'){
+        if(Key() == true){
+            return "You are almost there!"
+        } else if(Key() == maybe){
+            return "You still looking!"
         }
-    } else if(firstLine == 'three'){
-        return "It is locked!"
+    } else if(firstLine == 'thrid chance'){
+        return " Locked!"
     }}
 console.log(escapeRoom())
 
 const solution = () => {
-    if (escapeRoom = "You have found the key"){
-        return "you have escaped"
+    if (escapeRoom = "Finally found the key"){
+        return "Get out"
     }
 }
 console.log(solution())
