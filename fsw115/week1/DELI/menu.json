@@ -1,0 +1,68 @@
+{"menu": {
+    "appetizers": [
+        {
+            "name":"Loaded Potato Skins",
+            "ingredients":["potato skins", "bacon", "scallions", "sour cream", "jack and cheddar cheese"],
+            "description":"fried potato skin are deliciously crispy then fully loaded with bacon, scallions, pepper jack cheese,cheddar cheese, and sour cream "
+        },
+        {
+            "name":"Firecracker Shrimp",
+            "ingredients":["shrimp", "mayo", "sriracha", "salt", "onions", "oil", "flour", "sweet chilli sauce"],
+            "description":"Tender, crispy shrimp tossed in a creamy sauce with a kick to it"
+        },
+        {
+            "cold sandwiches": [
+                {
+                    "name":"California Turkey Club Sandwich",
+                    "ingredients":["avocado", "provolone", "lettuce", "tomato", "multigrain bread", "chipotle mayo"],
+                    "description":"A classic turkey sandwich with the extras  "
+                },
+                {
+                    "name":"Caprese",
+                    "ingredients":["tomatoes", "fresh mozzarella", "pesto sause", "tomato", "multigrain bread", "chipotle mayo"],
+                    "description":"Pressed on a rye bread cheesy mozzarella with pesto "
+
+
+
+                    "hot sandwiches": [
+                        {
+                            "name":"Nico's Sub",
+                            "ingredients":["Onions", "jalapenos", "vinegar", "sauteed mushrooms", "peppers","mozzarella cheese"],
+                            "description":"A choice of grilled chicken, steak, or pork with onion and jalapenos marinated in vinegar sauteed mushrooms,peppers and mozzarella cheese"
+                        },
+                        {
+                            "name":"Chicken Cheese Steak",
+                            "ingredients":["grilled chicken breast", "peppers", "onions", "mozzarella cheese"],
+                            "description":"chicken breast grilled to perfection with extra cheese"
+
+
+
+
+
+                            "desserts": [
+                                {
+                                    "name":"Banana Spring Rolls",
+                                    "ingredients":["banana", "caramel", "vanilla", "coconut-pineapple ice cream", "pastry"],
+                                    "description":"banana rolled in spring roll pastry and deep fried drizzle in caramel and vanilla sauce topped with coconut pineapple ice cream"
+                                },
+                                {
+                                    "name":"Flan",
+                                    "ingredients":["egg", "condensed milk", "vanilla extract", "white sugar", "evaporated milk"],
+                                    "description":"Sweet condensed and evaporated milk baked in a pie dish"
+
+                              "drinks": [
+                                        {
+                                            "name":"Flop",
+                                            "ingredients":["lemonade", "ice tea"],
+                                            "description": "A refreshing drink mix together in one"
+                                        },
+                                        {
+                                            "name":"Strawberry Lemonade",
+                                            "ingredients":["lemonade", "tea", "strawberry"],
+                                            "description": "Lemonade with fresh puree strawberries and tea"
+                                            
+                        }
+                    ]
+}}                    
+
+             
