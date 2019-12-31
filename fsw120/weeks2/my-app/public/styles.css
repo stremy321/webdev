@@ -1,9 +1,10 @@
 body {
     margin: 0;
-    background-color: #555
+    background-color:gray
 }
 
-.Spots {
-    background-color: #777;
+.vaca {
+    background-color:white;
     text-align: center;
+    margin: 0em;
 }

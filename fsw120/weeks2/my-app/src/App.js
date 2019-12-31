@@ -1,5 +1,5 @@
 import React from 'react';
-import vacation from './vacation';
+import Vacation from './vacation';
 import vacadata from "./vacadata";
 
 
