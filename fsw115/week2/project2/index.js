@@ -83,3 +83,7 @@ const people = [
 ]
 
 document.getElementById("list").value = people
+
+let first = people[0]
+let second = people[1]
+let third = people[2]

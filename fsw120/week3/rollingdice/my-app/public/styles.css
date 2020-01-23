@@ -1,0 +1,19 @@
+.container {
+    border: burlywood;
+    display: grid;
+    justify-content: space-evenly;
+
+}
+
+h1 {
+    border: solid 1px rgb(179, 26, 26);
+    width: 100px;
+    text-align: center;
+    ;
+}
+
+.button {
+    background-color:purple;
+    width: 200px;
+    height: 200px;
+}

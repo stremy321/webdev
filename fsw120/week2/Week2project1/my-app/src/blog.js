@@ -1,6 +1,6 @@
 import React from "react"
 
-function BlogList(props){
+function Blog(props){
     return (
         <div className="container">
             <h1 style={{color: props.title && "black"}}>{props.title}</h1>
@@ -11,4 +11,4 @@ function BlogList(props){
     )
 }
 
-export default BlogList
+export default Blog
