@@ -6,9 +6,9 @@ todoForm.addEventListener("submit", function(event){
     event.preventDefault()
 
     const newTodo = {
-        title: todoForm.title.value,
-        description: todoForm.description.value,
-        price: todoForm.price.value
+        name: todoForm.name.value,
+        object: todoForm.object.value,
+        
     }
 
     axios.post("https://api.vschool.io/jessicastremy/todo", newTodo)
