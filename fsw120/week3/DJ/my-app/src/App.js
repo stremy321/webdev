@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Blocks from './dj'
-//import './App.css';
 
 function handleClick() {
     let letters= '0123456789ABCDEF'
@@ -10,7 +9,6 @@ function handleClick() {
     }
     return color
 }
-
 class App extends Component {
   
    render() {
