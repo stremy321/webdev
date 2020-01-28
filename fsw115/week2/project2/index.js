@@ -84,6 +84,6 @@ const people = [
 
 document.getElementById("list").value = people
 
-let first = people[0]
-let second = people[1]
-let third = people[2]
+let first = people[1]
+let second = people[2]
+let third = people[3]
