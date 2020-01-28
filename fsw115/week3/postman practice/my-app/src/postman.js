@@ -161,4 +161,4 @@ const people = [
 ]
 
 let string = JSON.stringify(people);
-document.getElementById("darth").innerHTML = string
+document.getElementById("darthvader").innerHTML = string
