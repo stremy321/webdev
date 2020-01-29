@@ -1,15 +1,16 @@
-import React from 'react';
+import React, {Component} from 'react';
 import { Switch, Route } from 'react-router-dom'
-import Navbar from './Navbar'
-import Home from './Home'
-import Add from './Add'
-import Subtraction from './Sub'
-import Mul from './Mul'
-import Div from './Div'
+import Navbar from './navbar'
+import Home from './home'
+import Add from './addition'
+import Subtraction from './subtract'
+import Mul from './multiply'
+import Div from './divide'
 //import './App.css';
 
-function App() {
-  return(
+class App extends Component {
+  render() {
+  return (
     <div>
       <Navbar />
         <Switch>
@@ -21,7 +22,7 @@ function App() {
         </Switch>
       </div>
   )
-  
+  }
 }
 
 export default App;
