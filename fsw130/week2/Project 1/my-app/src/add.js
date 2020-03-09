@@ -17,7 +17,7 @@ const AddUgly = () => {
             return;
           }
           dispatch({
-            type: ADD_UGLY,
+            type: ADD,
             payload: {
               id: nextUglyId,
               completed: false,
@@ -34,7 +34,7 @@ const AddUgly = () => {
           <input placeholder="Description" {...inputProp3} />             
         </div>  
         <hr />     
-        <Button className="button" type="submit">Add Ugly</Button> 
+        <Button className="button" type="submit">Add </Button> 
       </form>
     </div>
   );
@@ -47,4 +47,4 @@ function useFromInput(initValue = "") {
   return { value, onChange, resetValue };
 }
 
-export default AddUgly;
+export default Add;

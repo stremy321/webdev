@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import Button from "./Button";
 
-import { CHANGE_FILTER, VisibilityFilters } from "./../reducers/uglies";
+import { CHANGE_FILTER, VisibilityFilters } from "./../remove/ugly";
 import { UglyContext } from "./../contexts/ugly";
 
 const BUTTONS_FILTER = [

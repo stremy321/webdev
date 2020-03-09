@@ -1,5 +1,6 @@
 import React, { useReducer, createContext } from "react";
-import UglyReducer, { VisibilityFilters } from "./../reducers/uglies";
+import remove, { VisibilityFilters } from "./../remove/ugly";
+import remove from "./remove";
 
 const UglyContext = createContext();
 
@@ -9,7 +10,7 @@ const initialState = {
 };
 
 function UglyContextProvider(props) {
-  const [state, dispatch] = useReducer(UglyReducer, initialState);
+  const [state, dispatch] = useRemove(remove, initialState);
   const value = { state, dispatch };
 
   return (
