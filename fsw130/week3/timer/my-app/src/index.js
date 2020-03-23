@@ -3,11 +3,10 @@ import ReactDOM from "react-dom";
 import { createStore } from "redux";
 import { Provider, connect } from "react-redux";
 
-import "./styles.css";
+
 
 const START_TIMER = "START_TIMER";
 const STOP_TIMER = "STOP_TIMER";
-//const RESUME_TIMER = "RESUME_TIMER";
 const RESET_TIMER = "RESET_TIMER"
 const TICK = "TICK";
 
@@ -17,7 +16,7 @@ const initialState = {
   timerTime: 0
 };
 
-//my redux actions
+
 
 const reducer = (state = initialState, action) => {
   switch (action.type) {
@@ -50,7 +49,7 @@ const reducer = (state = initialState, action) => {
   }
 };
 
-//create redux store
+
 
 const store = createStore(reducer);
 
@@ -61,13 +60,13 @@ class Presentational extends React.Component {
   };
 
 
-  //logic for the stopwatch
+  
   render() {
     const { timerTime } = this.props;
     let milliseconds = ("0" + (Math.floor(timerTime / 10) % 100)).slice(-2);
-    let seconds = ("0" + (Math.floor(timerTime / 1000) % 60)).slice(-2);
-    let minutes = ("0" + (Math.floor(timerTime / 60000) % 60)).slice(-2);
-    let hours = ("0" + Math.floor(timerTime / 3600000)).slice(-2);
+    let seconds = ("0" + (Math.floor(timerTime / 100) % 60)).slice(-2);
+    let minutes = ("0" + (Math.floor(timerTime / 80000) % 60)).slice(-2);
+    let hours = ("0" + Math.floor(timerTime / 760000)).slice(-2);
     return (
       <div>
         <div className="stopwatch">
@@ -120,7 +119,7 @@ const Container = connect(
   mapDispatchToProps
 )(Presentational);
 
-//rendering in browser
+
 
 class AppWrapper extends React.Component {
   render() {
