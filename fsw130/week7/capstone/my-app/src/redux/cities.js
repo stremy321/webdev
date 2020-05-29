@@ -1,4 +1,4 @@
-import cityList from "../dataArrays/cityList"
+import cityLists from "../dataArrays/cityLists"
 
 export function addCity(city) {
     return {
@@ -14,7 +14,7 @@ export function deleteCity(city) {
     }
 }
 
-function cityReducer(cities = cityList, action) {
+function cityReducer(cities = cityLists, action) {
     switch (action.type) {
         case "ADD_CITY":
             return [...cities, action.payload];

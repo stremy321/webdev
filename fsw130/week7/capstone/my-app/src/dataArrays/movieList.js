@@ -27,4 +27,4 @@ const movieList = [
 
 ]
 
-export default moviesList
+export default movieList

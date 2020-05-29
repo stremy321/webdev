@@ -3,7 +3,7 @@ import richList from "../dataArrays/richList"
 export function addRich(Rich) {
     return {
         type: "ADD_RICH",
-        payload: rich
+        // payload: rich
     }
 }
 

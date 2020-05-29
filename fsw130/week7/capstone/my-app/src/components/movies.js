@@ -1,7 +1,7 @@
 import React from "react"
 import Home from "./Home"
 
-import "../styling/population.css"
+// import "../styling/list.css"
 
 class Movies extends React.Component {
     constructor(props){
@@ -17,9 +17,9 @@ class Movies extends React.Component {
                 {this.state.moviesArray.map((movie, num) => {
                    return(
                     <div className="movies" key={num}> 
-                    <h1>Year: {movies.year}</h1>
-                    <h1>Name: {movies.name}</h1>
-                    <h1>Genre: {movies.genre}</h1>
+                    <h1>Year: {movie.year}</h1>
+                    <h1>Name: {movie.name}</h1>
+                    <h1>Genre: {movie.genre}</h1>
                     </div>)})
                 }
                     {console.log(this.state.moviesArray)}
